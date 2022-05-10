@@ -4,7 +4,7 @@
     var mp3_names = ['B VOC.mp3','DRUMS.mp3','HE HE VOC.mp3','HIGH VOC.mp3',
     'JIBRISH.mp3','LEAD 1.mp3','UUHO VOC.mp3','_tambourine_shake_higher.mp3','ALL TRACK.mp3'];//diff wave names
     var wave_index = 1;//waves index
-    for (wave_index; wave_index<=wave_colors.length;wave_index++){
+    for (wave_index; wave_index<=wave_colors.length;wave_index++){ //creates waves instances in a loop.
         var wave_name = 'wavesurfer' + wave_index;
         window[wave_name] = WaveSurfer.create({
             container: '#waveform',
