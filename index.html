@@ -1,0 +1,36 @@
+ <Moveo Player>
+ <html lang='en'>
+ <head>
+     <meta charset='UTF-8'>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+     <title>Moveo Player</title>
+     <link rel='stylesheet' href='style.css'>
+ </head>
+ <body>
+     <h1>Moveo Player</h1>
+     
+    <div id='play_buttons'>
+    <button class='play' onclick='play()'>Play</button>
+    <button class='stop' onclick='stop()'>Stop</button>
+    <button class='loop' onclick='loop_toggle()'>Loop</button>
+    </div>
+
+    <div id='mutes'>
+    <button class='mute1_btn' onclick='mute(1)'>B VOC Mute</button>
+    <button class='mute2_btn' onclick='mute(2)'>DRUMS Mute</button>
+    <button class='mute3_btn' onclick='mute(3)'>HE HE VOC Mute</button>
+    <button class='mute4_btn' onclick='mute(4)'>HIGH VOC Mute</button>
+    <button class='mute5_btn' onclick='mute(5)'>JIBRISH Mute</button>
+    <button class='mute6_btn' onclick='mute(6)'>LEAD 1 Mute</button>
+    <button class='mute7_btn' onclick='mute(7)'>UUHO VOC Mute</button>
+    <button class='mute8_btn' onclick='mute(8)'>Shaker Mute</button>
+    <button class='mute9_btn' onclick='mute(9)'>All Track Mute</button>
+    </div>
+    <div id='waveform'></div>
+
+    <script src='https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.regions.min.js'></script> 
+    <script src='https://unpkg.com/wavesurfer.js'></script>
+    <script src='index.js'></script>
+ </body>
+ </html>

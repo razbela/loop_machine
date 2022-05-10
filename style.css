@@ -1,0 +1,85 @@
+
+     body{
+         background-color: black;
+     }
+     h1{
+         position: sticky;
+         margin: auto;
+         margin-left: 600px;
+         margin-top: 10px;
+         font-size: xx-large;
+         color:rgb(255, 255, 255);
+     }
+     .loop{
+         background-color: white;
+     }
+     .mute1_btn{
+        width: 130px;
+        margin-bottom: 39px;
+        background-color: lightgreen;
+     }
+     .mute2_btn{
+        width: 130px;
+        margin-bottom: 39px;
+        background-color: lightgreen;
+     }
+     .mute3_btn{
+        width: 130px;
+        margin-bottom: 39px;
+        background-color: lightgreen;
+     }
+     .mute4_btn{
+        width: 130px;
+        margin-bottom: 39px;
+        background-color: lightgreen;
+     }
+     .mute5_btn{
+        width: 130px;
+        margin-bottom: 39px;
+        background-color: lightgreen;
+     }
+     .mute6_btn{
+        width: 130px;
+        margin-bottom: 39px;
+        background-color: lightgreen;
+     }
+     .mute7_btn{
+        width: 130px;
+        margin-bottom: 39px;
+        background-color: lightgreen;
+     }
+     .mute8_btn{
+        width: 130px;
+        margin-bottom: 39px;
+        background-color: lightgreen;
+     }
+     .mute9_btn{
+        width: 130px;
+        margin-bottom: 39px;
+        background-color: lightcoral;
+     }
+     #mutes {
+        position: absolute;
+        justify-content: space-around;
+        flex-direction: row;
+        display:inline-block;
+        height: 200px;
+        left: 80px;
+        top: 87px;
+        width: 40px;
+        background-color: black;
+        border: 2px white
+     }
+     #waveform {
+            width: 1000px;
+            margin: auto;
+            margin-bottom: 10x;
+        }
+    #play_buttons {
+        position: sticky;
+        top: 90%;
+        bottom: 50px;
+        margin: auto;
+        width: 200px;
+        border: 1px white
+}   
